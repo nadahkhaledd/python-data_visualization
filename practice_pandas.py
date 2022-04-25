@@ -11,6 +11,7 @@ df['total_ir'] = df['jan_ir'] + df['feb_ir'] + df['march_ir']
 print(df)
 
 plt.pie(df['total_ir'], labels=df['names'], autopct='%1.1f%%')
+plt.axis('equal')
 plt.show()
 
 
