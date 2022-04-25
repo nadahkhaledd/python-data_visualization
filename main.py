@@ -9,8 +9,9 @@ deaths = [1.2, 1.7, 1.8, 2.2, 2.5, 2.7, 2.9, 3, 3.1, 3.3, 3.5, 3.8, 4.0, 4.3]
 
 plt.plot(years, population, color='purple')
 plt.plot(years, deaths, color='red')
+plt.grid(True)
 plt.title('Population Growth')
-plt.xlabel('years')
+plt.xlabel('year')
 plt.ylabel('population (billion)')
 plt.show()
 
